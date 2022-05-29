@@ -1,0 +1,256 @@
+
+@font-face{
+font-family: PublicSans-Thin_Light;
+src: url("../fonts/PublicSans-Light.ttf");
+}
+@font-face{
+    font-family: PublicSans-Regular;
+    src: url("../fonts/PublicSans-Regular.ttf");
+}
+@font-face{
+    font-family: PublicSans-Thin_Bold;
+    src: url("../fonts/PublicSans-Bold.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+     margin: auto;  
+}
+.header{
+     display: flex; 
+     justify-content: space-between;
+     padding: 5%;
+}
+a{
+    text-decoration: none;
+    color: #9597A5;
+    font-size: 14px;
+    text-decoration: none;
+     margin: 10px; 
+     font-family: PublicSans-Regular;
+}
+.mini-nav:hover{
+    color:#454a70 ;
+}
+.header .reqier{
+ padding: 15px 50px;
+ border-radius: 50px;
+ border: none;
+ background-color: #2D314D;
+ color: #FFFFFF;
+ font-size: 14px;
+ margin-bottom: 10px;
+ cursor: pointer;
+ margin-right: 100px; 
+ font-family: PublicSans-Thin_Bold ;
+}
+.reqier:hover{
+    background-color: #636579;
+}
+.main-header{
+    display: flex;
+ padding: 5%;
+ background-color: #FAFAFA;
+}
+.part-header .digital{
+    color: #2D314D;
+    font-size: 56px;
+    font-family: PublicSans-Thin_Light;
+}
+.part-header .financial{
+    color: #9597A5;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: PublicSans-Regular;
+ 
+}
+.part-header .reqier{
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #2D314D;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 5%;
+    font-family: PublicSans-Thin_Bold;
+    cursor: pointer;
+}
+.part-header .reqier:hover{
+    background-color:#636579;
+}
+.part-header{
+    padding-top: 10%;
+}
+.choose{
+    padding: 5%;
+    background-color: #F4F5F7;
+}
+.Easy-bank{
+    color: #2D314D;
+    font-size: 40px;
+    font-family: PublicSans-Thin_Light;
+}
+.account{
+    color: #9597A5;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: PublicSans-Regular;
+}
+.all-boxs{
+display: flex;
+padding-top: 4%;
+}
+.online{
+    font-size: 24px;
+    color: #2D314D;
+    font-family: PublicSans-Thin_Light;
+}
+.web{
+    color: #9597A5;
+    font-size: 16px;
+    padding-top: 10px;
+    font-family: PublicSans-Regular;
+}
+.box-card .fa-sim-card{
+    border-radius: 50px;
+    padding: 10px 15px;
+    background-color: #2D314D;
+    color: #FFFFFF; 
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.box-money .fa-file-invoice-dollar{
+    border-radius: 50px;
+    padding: 10px 15px;
+    background-color: #2D314D;
+    color: #FFFFFF; 
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.box-setting .fa-cogs{
+    border-radius: 50px;
+    padding: 10px 15px;
+    background-color: #2D314D;
+    color: #FFFFFF; 
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.box-invest .fa-star-of-david{
+    border-radius: 50px;
+    padding: 10px 15px;
+    background-color: #2D314D;
+    color: #FFFFFF; 
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.bank-accounts{
+   margin-bottom: 2%; 
+}
+.photo-boxs{
+    display: flex;
+}
+.Articles{
+    font-size: 40px;
+    color: #2D314D;
+    margin-bottom: 4%;
+    font-family: PublicSans-Thin_Light;
+}
+.title-box{
+    padding-top: 13%;
+    width: 100%;
+    background-color: #FAFAFA;
+    padding: 5%;
+}
+.Claire{
+    color: #9597A5;
+    font-size: 10px;
+    margin-top: 15px;
+    font-family: PublicSans-Regular;
+}
+.currency{
+    font-size: 16px;
+    color: #2D314D;
+    margin-top: 15px;
+    font-family: PublicSans-Thin_Light;
+
+}
+.small-world{
+    color: #9597A5;
+    font-size: 13px;
+    margin-top: 15px;
+    font-family: PublicSans-Regular;
+}
+.box-setting{
+    margin-right: 10px;
+  
+}
+.box-card{
+    margin-right: 10px;
+}
+.Footer{
+    padding: 3%;
+    background-color: #2D314D;
+    display: flex;
+}
+.social{
+    border-radius: 10px;
+    padding: 20px 15px; 
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.icons{
+    margin-top: 15%;
+}
+
+.contact{
+    border-radius: 10px;
+   padding: 20px 15px;  
+    margin-left: 10%;
+}
+.Careers{
+    border-radius: 10px;
+    padding: 20px 15px;  
+     margin-left: 10%;
+}
+.email{
+    border-radius: 10px;
+    padding: 20px 15px;  
+     margin-left: 18%;
+}
+.invite{
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #30C88F;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: PublicSans-Thin_Bold;
+    cursor: pointer;
+   
+}
+.invite:hover{
+    background-color: hsl(158, 23%, 56%);
+  
+}
+.Reserved{
+    font-size: 15px;
+    font-family: PublicSans-Regular;
+    color: #FFFFFF;
+  
+    margin-top: 10%;
+}
+.job{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: PublicSans-Regular;
+    margin-top: 10%;
+ 
+}
+
+
+
+
